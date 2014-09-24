@@ -7,9 +7,12 @@ Plugin 'git://github.com/altercation/vim-colors-solarized.git'
 
 Plugin 'Valloric/YouCompleteMe'
 
+Plugin 'scrooloose/nerdtree.git'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+so ~/vimtests/nerdtreerc
 set background=light
 colorscheme solarized
 
