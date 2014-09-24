@@ -1,0 +1,10 @@
+set runtimepath=./ycm_vim/,$VIMRUNTIME
+set nocompatible              " be iMproved, required
+filetype off 
+set rtp+=./ycm_vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+
+
+call vundle#end()            " required
+filetype plugin indent on    " required
