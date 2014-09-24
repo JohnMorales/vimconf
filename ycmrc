@@ -3,6 +3,12 @@ let &runtimepath = printf('%s/vimtests/ycm_vim/,%s,%s/vimtests/ycm_vim/after,%s/
 filetype off 
 call vundle#begin('~/vimtests/ycm_vim/bundle')
 Plugin 'gmarik/Vundle.vim'
+Plugin 'git://github.com/altercation/vim-colors-solarized.git'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+set background=light
+colorscheme solarized
+
+so ~/vimtests/essentials.vim
