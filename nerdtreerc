@@ -1,0 +1,3 @@
+nmap <silent> ,n :NERDTreeFind<CR>
+nmap <silent> ,m :NERDTreeToggle<CR>
+

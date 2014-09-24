@@ -4,5 +4,10 @@ filetype off
 call vundle#begin('~/vimtests/ycm_vim/bundle')
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'scrooloose/nerdtree.git'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+so ~/vimtests/nerdtreerc
+
