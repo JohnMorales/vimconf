@@ -1,8 +1,10 @@
 set nocompatible              " be iMproved, required
-let &runtimepath = printf('./ycm_vim/,%s,./ycm_vim/after,./ycm_vim/bundle/Vundle.vim', $VIMRUNTIME)
+let &runtimepath = printf('%s/vimtests/ycm_vim/,%s,%s/vimtests/ycm_vim/after,%s/vimtests/ycm_vim/bundle/Vundle.vim', $HOME, $VIMRUNTIME, $HOME, $HOME)
 filetype off 
-call vundle#begin('./ycm_vim/bundle')
+call vundle#begin('~/vimtests/ycm_vim/bundle')
 Plugin 'gmarik/Vundle.vim'
+
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
